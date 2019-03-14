@@ -3,7 +3,7 @@ class Users < ActiveRecord::Migration
     add_column :name, :string
     add_column :email, :string
     add_column :password, :string
-    end
+
 
   end
 end
